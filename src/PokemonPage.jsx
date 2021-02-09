@@ -6,6 +6,7 @@ import PokemonAbility from './PokemonAbility'
 import ErrorMessage from './ErrorMessage'
 
 const formatName = (nameWithDash) => nameWithDash.replace('-', ' ')
+jest --silent;
 
 const PokemonPage = ({ previous, next }) => {
   const { name } = useParams()
